@@ -1,7 +1,7 @@
 terraform {
   backend "remote" {
-    hostname     = "app.terraform.io"
-    organization = "<YOUR-ORG-NAME>"
+    hostname     = "terraform.multicloud.telefonica.com"
+    organization = "Telefonica"
 
     workspaces {
       name = "learn-terraform-circleci"
